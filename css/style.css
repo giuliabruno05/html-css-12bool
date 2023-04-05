@@ -1,0 +1,20 @@
+
+
+
+
+/* DEBUG */
+[class*="col-"] { 
+    background-color: orangered;
+    height: 25px;
+    border: 2px solid white;
+}
+
+.col-2 .green{ 
+    background-color: green;
+    height: 20px;
+    border: 2px solid white;
+}
+
+.row.two{ 
+    padding-top: 20px;
+}
