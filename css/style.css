@@ -5,20 +5,40 @@
 /* DEBUG */
 [class*="col-"] { 
     background-color: orangered;
-    height: 25px;
+    min-height: 30px;
+    padding: 10px;
     border: 2px solid white;
 }
 
-.col-2 .green{ 
+.green{ 
     background-color: green;
-    height: 20px;
-    border: 2px solid white;
+    
+    
 }
 
-.row.two{ 
+.row.off{ 
     padding-top: 20px;
 }
 
 .row.tre{ 
     padding-top: 20px;
+}
+
+.second{ 
+    margin-top: 30px;
+}
+
+.col-lg-6.big{ 
+    height: 140px;
+}
+.col-lg-6.big-2{ 
+    background-color: white;
+    
+}
+.row{ 
+    height:100%;
+}
+
+.terza{ 
+    margin-top: 30px;
 }
